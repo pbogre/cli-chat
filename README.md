@@ -1,7 +1,7 @@
 # cli-chat
 NodeJS based CLI messaging system using sockets that connects users through a specified IP and port
 
-![Preview](https://imgur.com/a/0K52ZX1)
+![Preview](https://i.imgur.com/EzNM1gO.png)
 
 # Requirements
 ### Server
