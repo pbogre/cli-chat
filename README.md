@@ -39,12 +39,11 @@ server {
 - run the server using `node server.js`
 - run nginx server using `nginx`
 - to test that everything is working, run `curl http://127.0.0.1:5000` from the machine that is running the server
-- if you get a response it means that it is working as intended
+- if you get a response like "CLI-chat | version X.X.X" it means that it is working as intended and the proxy works
+
 Now users under your same Wi-Fi will be able to connect to CLI-Chat using your local ip (usually looks something like 192.168.1.X)
 
-If you wish for users to connect from outside your Wi-Fi, you need to to port-forward the port that the nginx server is listening to (5000 by default) and make you IPv4 static. 
-
-Users from anywhere in the world will be able to connect using your IPv4
+If you wish for users to connect from outside your Wi-Fi, you need to to port-forward the port that the nginx server is listening to (5000 by default) and make you IPv4 static. Users from anywhere in the world will be able to connect using your IPv4
 
 ## Connecting to the server
 - open `config.js`
