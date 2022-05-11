@@ -39,7 +39,7 @@ server {
 - if you get a response it means that it is working as intended
 Now users under your same Wi-Fi will be able to connect to CLI-Chat using your local ip (usually looks something like 192.168.1.X)
 
-If you wish for users to connect from outside your Wi-Fi,  you need to configure your router to port-forward to the port that the nginx server is listening to (5000 by default), and make you IPv4 static. (https://www.youtube.com/watch?v=VhVV25zCFrQ)
+If you wish for users to connect from outside your Wi-Fi, you need to to port-forward the port that the nginx server is listening to (5000 by default) and make you IPv4 static. 
 
 Users from anywhere in the world will be able to connect using your IPv4
 
