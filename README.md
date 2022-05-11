@@ -37,6 +37,7 @@ server {
 (for more information about nginx, visit https://www.nginx.com/)
 - Make sure nginx server proxies to port that `server.js` is listening
 - run the server using `node server.js`
+- run nginx server using `nginx`
 - to test that everything is working, run `curl http://127.0.0.1:5000` from the machine that is running the server
 - if you get a response it means that it is working as intended
 Now users under your same Wi-Fi will be able to connect to CLI-Chat using your local ip (usually looks something like 192.168.1.X)
