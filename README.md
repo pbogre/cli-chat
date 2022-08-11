@@ -1,5 +1,5 @@
 # cli-chat
-NodeJS based CLI messaging system using sockets that connects users through a specified IP and port
+NodeJS based IRC using sockets
 
 ![Preview](https://i.imgur.com/EzNM1gO.png)
 
